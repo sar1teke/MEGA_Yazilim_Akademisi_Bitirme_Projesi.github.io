@@ -32,7 +32,7 @@ const HomePage = () => {
     {
       id: 1,
       title: '4 Adet Tescilli Taşınmazın Rekonstrüksiyon Yapım İşi',
-      description: 'Açık hava spor sahalarının yapımıyla ilgili çalışmalar.',
+      description: 'Şükran Mahallesi 2 Adet Tescilli Taşınmazın Rekonstrüksiyon İkmal İnşaatı'nın Yapımı.',
       mainImage: 'https://www.meram.bel.tr/upload/medya/01-1.jpg',
     },
     {
