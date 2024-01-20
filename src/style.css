@@ -1,0 +1,110 @@
+body {
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+.image-card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-card:hover .image {
+    transform: scale(1.1);
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .overlay-text {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .image-card:hover .overlay {
+    opacity: 1;
+  }
+  
+  .logo {
+    width: 50px;
+    height: auto;
+  }
+
+footer {
+  background-color: #28a745;
+  color: #fff;
+  padding-top: 1rem;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer h4,
+
+footer p,
+
+footer a {
+  margin: 0;
+}
+
+footer h4 {
+  font-size: 1rem;
+}
+
+footer p {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+footer ul {
+  list-style: none; 
+  padding: 0; 
+  display: flex;
+  justify-content: center;
+  margin-top: 5px; 
+}
+
+footer ul li {
+  margin-right: 1rem;
+}
+
+footer a {
+  font-size: 1rem; 
+  color: #fff;
+}
+
+footer a:hover
+{
+  text-decoration: underline; 
+}
+
+.SearchBar 
+{
+  background-color: #991414;
+}
